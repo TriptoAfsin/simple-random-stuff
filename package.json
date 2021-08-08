@@ -1,0 +1,23 @@
+{
+  "name": "simple-random-stuff",
+  "version": "1.0.0",
+  "description": "This package helps you to generate common random data(number, day, month, prime number, dice etc) quickly",
+  "main": "index.js",
+  "homepage": "",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "random",
+    "generator",
+    "prime",
+    "random number",
+    "node",
+    "js",
+    "day",
+    "month",
+    "toss"
+  ],
+  "author": "Tripto Afsin",
+  "license": "ISC"
+}
