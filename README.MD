@@ -13,6 +13,7 @@ This package helps you to generate common random data(number, day, month, prime 
 
 1. NPM - 
 ```
+npm i simple-random-stuff
 ```
 
 
@@ -20,9 +21,9 @@ This package helps you to generate common random data(number, day, month, prime 
 
 ```javascript
 //named import
-let {numRandomizer, simpleRandomizer, getDay} = require('../github-repo/index')
+let {numRandomizer, simpleRandomizer, getDay} = require('simple-random-stuff')
 //whole import
-let radomizers = require('./index')
+let radomizers = require('simple-random-stuff')
 
 //getting ranged random number
 console.log(numRandomizer(5,20))  // 7

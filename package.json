@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This package helps you to generate common random data(number, day, month, prime number, dice etc) quickly",
   "main": "index.js",
-  "homepage": "",
+  "homepage": "https://github.com/TriptoAfsin/simple-random-stuff",
   "scripts": {
     "test": "node index.js"
   },
