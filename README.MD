@@ -2,6 +2,7 @@
 This package helps you to generate common random data(number, day, month, prime number, dice etc) quickly 😀
 
 ### Features - 
+1. 0 Dependencies
 1. Simple Number Generator - Ranged, Prime Number
 2. Random Day
 3. Random Month
@@ -22,8 +23,10 @@ npm i simple-random-stuff
 ```javascript
 //named import
 let {numRandomizer, simpleRandomizer, getDay} = require('simple-random-stuff')
-//whole import
+//or whole import
 let radomizers = require('simple-random-stuff')
+// or you can use import as well(react, vue, angular etc)
+import randomizers from 'simple-random-stuff'
 
 //getting ranged random number
 console.log(numRandomizer(5,20))  // 7
