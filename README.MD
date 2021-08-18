@@ -8,7 +8,8 @@ This package helps you to generate common random data(number, day, month, prime 
 3. Random Month
 4. Coin Toss
 5. Dice Roll
-6. Rock, Paper, Scissor 😀
+6. Hex Colors
+7. Rock, Paper, Scissor 😀
 
 ### Installation - 
 
@@ -45,6 +46,9 @@ console.log(radomizers.coinToss()) // Head
 
 //getting a dice roll result
 console.log(radomizers.diceRoll()) // 5
+
+//getting a hex color
+console.log(radomizers.getHexColor()) //#e80e53
 
 //getting a random prime number
 console.log(radomizers.getPrimeNumber(50,100, array=false)) // 53

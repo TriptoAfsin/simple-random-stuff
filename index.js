@@ -47,10 +47,12 @@ let rockPaper = () => {
 
 let diceRoll = () => {
     let dice = [1, 2, 3, 4, 5, 6]
-
     return dice[Math.floor(Math.random() * dice.length)]
 }
 
+let getHexColor = () => {
+    return `#${((Math.random() * 0xffffff) << 0).toString(16).padStart(6, "0")}`
+}
 
 module.exports = {
     numRandomizer: numRandomizer,
@@ -61,4 +63,5 @@ module.exports = {
     rockPaper: rockPaper,
     diceRoll: diceRoll,
     getPrimeNumber: getPrimeNumber,
+    getHexColor: getHexColor,
 }
