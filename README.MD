@@ -1,6 +1,9 @@
 # Simple Random Stuff
 This package helps you to generate common random data(number, day, month, prime number, dice etc) quickly 😀
 
+
+<p align="center"><img src="./getRandom.png" width="256px" alt="Logo"></img></p>
+
 ### Features - 
 1. 0 Dependencies
 1. Simple Number Generator - Ranged, Prime Number
